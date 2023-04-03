@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "rm-expert-mobile",
+    "slug": "rm-expert-mobile",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/rn-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/start.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.andreyspakhi.rmexpertmobile",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "875958a9-5230-4911-9c6a-75f90ab7868b"
+      }
+    }
+  }
+}
